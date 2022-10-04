@@ -28,6 +28,7 @@ h1 {
     color: #fff;
     background-color: black;
     font-size: 20px;
+    border: none;
 }
 #boton-carrito:hover {
     cursor: pointer;
@@ -90,7 +91,7 @@ p {
 .modal-carrito {
     position: relative;
     background-color: white;
-    min-width: 500px;
+    width: 80%;
     padding: 20px;
     margin-top: -100%;
     transition: all .5s;
@@ -175,5 +176,21 @@ a{
 @media (max-width:630px) {
     .producto{
         width: 200px;
+    }
+}
+@media (max-width:465px) {
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .boton-agregar{
+        font-size: 12px;
+    }
+}
+@media (max-width:458px) {
+    .producto{
+        width: 150px;
     }
 }
